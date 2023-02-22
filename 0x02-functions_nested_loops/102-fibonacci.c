@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * Description: Prints the first 50 Fibonacci numbers separated by commas.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -25,5 +27,5 @@ int main(void)
 
     printf("%ld\n", fib[49]);
 
-    return (0);
+    return 0;
 }
