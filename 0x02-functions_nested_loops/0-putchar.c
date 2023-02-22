@@ -6,23 +6,15 @@
 * Return: Always 0 (Success)
 */
 
-int _putchar(char c);
-
 int main(void)
 {
-  char str[] = "_putchar\n";
-  int i = 0;
+	int i;
+	char p[] = "_putchar";
 
-  while (str[i] != '\0')
-  {
-    _putchar(str[i]);
-    i++;
-  }
-
-  return (0);
-}
-
-int _putchar(char c)
-{
-  return (write(1, &c, 1));
+	for (i = 0; i < 9; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
+	return (0);
 }
