@@ -22,6 +22,6 @@ int main(void)
 	{
 		printf("%ld, ", fib[i]);
 	}
-	printf("%ld\n", fib[49]);	
+	printf("%ld\n", fib[49]);
 	return (0);
 }
