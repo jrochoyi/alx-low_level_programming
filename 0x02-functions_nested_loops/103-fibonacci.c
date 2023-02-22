@@ -10,7 +10,6 @@
  */
 int main(void)
 {
-	int i;
 	long fib[3] = { 1, 1, 2 };
 	long sum = 0;
 	
